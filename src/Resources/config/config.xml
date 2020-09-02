@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>ElgentosDefaultSortOrder Settings</title>
+
+        <input-field type="single-select">
+            <name>defaultSortOrder</name>
+            <placeholder>Default sort order</placeholder>
+            <label>Default sort order</label>
+            <options>
+                <option>
+                    <id>null</id>
+                    <name>Shopware default</name>
+                </option>
+                <option>
+                    <id>price-asc</id>
+                    <name>Price ascending</name>
+                </option>
+                <option>
+                    <id>price-desc</id>
+                    <name>Price descending</name>
+                </option>
+                <option>
+                    <id>name-asc</id>
+                    <name>Name ascending</name>
+                </option>
+                <option>
+                    <id>name-desc</id>
+                    <name>Name descending</name>
+                </option>
+            </options>
+        </input-field>
+    </card>
+</config>

@@ -1,0 +1,25 @@
+{
+    "name": "elgentos/shopware-default-sort-order",
+    "description": "Default Sort Order",
+    "authors": [
+        {
+            "name": "Elgentos",
+            "role": "Manufacturer"
+        }
+    ],
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ElgentosDefaultSortOrder\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "ElgentosDefaultSortOrder\\ElgentosDefaultSortOrder",
+        "label": {
+            "de-DE": "Legen Sie die Standardsortierreihenfolge für Kategorieseiten fest",
+            "en-GB": "Set the default sort order for category pages"
+        }
+    }
+}

@@ -1,3 +1,5 @@
+# Deprecated; this feature is now default in Shopware under Settings > Products > Default sorting
+
 # Shopware 6 - Category Default Sort Order
 
 This plugin allows you to set the default sort order for the category pages in a Shopware 6 installation.
